@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.team-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .card {
+    padding: 5px;
+    margin: 5px;
+    width: 140px;
+    font-size: 9px;
+
+  }
+
+  .team-img {
+    width: 20px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card{
+    width: 180px;
+  }
+}

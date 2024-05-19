@@ -1,0 +1,46 @@
+.match-details-card {
+  background-color: #0f172a;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 18px;
+  font-family: 'Bree Serif';
+}
+
+.part-1 {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.line {
+  border: 2px solid #475569;
+  width: 100%;
+  margin: 0px;
+}
+
+@media (min-width: 768px) {
+  .match-details-card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .part-2 {
+    text-align: right;
+  }
+
+  .line {
+    display: none;
+  }
+}
